@@ -2,7 +2,7 @@ const http = require('http');
 
 http.createServer(function (req, res) {
   res.writeHead(200,{'content-Type':'text/plain'})
-    res.end( "<h1> Hello Team!! Deploying a Node.js Application On AWS-EC2 Instance and Here It's working Successfully..... 🤗 </h1>")
+    res.end( " Hello Team!! Deploying a Node.js Application On AWS-EC2 Instance and Here It's working Successfully..... 🤗 ")
   }).listen(8080);
 
 console.log('Server is Running Successfull!!!!');
